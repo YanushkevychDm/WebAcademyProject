@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Мельник</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" media="screen" href="css/main.css" />
+  <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+  <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+</head>
+<body>
+  
+  <header class="navigation">
+    
+    <div class="logo">
+      <span class="logo-start">Мельник</span><span class="logo-end">фото</span>  
+    </div>
+    
+    <!-- navigation -->
+    
+    <div class="menu">
+      <div class="menu__icon">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    
+      <div class="menu__links">
+          <!-- <a class="menu__links-item" href="#">Головна</a> -->
+          <a class="menu__links-item" href="#about">Послуги</a>
+          <a class="menu__links-item" href="#album">Альбоми</a>
+          <a class="menu__links-item" href="/">Про себе</a>
+          <a class="menu__links-item" href="#contacts">Контакти</a>
+      </div>
+  </div>
+
+  </header>
+
+ 
+  <div class="slider-wrapper">
+    <ul id="slides">
+      <li class="slide showing"></li>
+      <li class="slide"></li>
+      <li class="slide"></li>
+      <li class="slide"></li>
+      <li class="slide"></li>
+      <li class="slide"></li>
+    </ul>
+    <div class="buttons">
+      <button class="buttons__controls material-icons" id="previous">fast_rewind</button>
+  
+      <button class="buttons__controls material-icons" id="pause">pause</button>
+  
+      <button class="buttons__controls material-icons" id="next">fast_forward</button>
+    </div>
+  </div>
+
+  <section class="about">
+    <a id="about"></a>
+    <h2 class="section__title">Що можна знайти на цій сторінці</h2>
+
+    <div class="about__wedding">
+      <div class="about__picture about__picture--weddig"></div>
+      <h3 class="h2-title">Весільна фотосесія</h3>
+      <p class="about__text">
+        Фотосесії, як правило, відбуваються в студії (студійна фотосесія) або на відкритому повітрі (виїзна фотосесія на тлі історичного об'єкта).
+
+        Історично фотосесії простежуються з 1912 року.
+        
+        Продукти фотосесії (фотосет) використовуються, як правило, в комерційних цілях, в тому числі для ілюстрації глянцевих журналів або для залучення уваги до нових товарів. Фотосесії також є невід'ємною частиною сучасного весільного ритуалу.
+      </p>
+    </div>
+
+    <div class="about__school">
+      <div class="about__picture about__picture--school"></div>
+      <h3 class="h2-title">Шкільні альбоми</h3>
+      <p class="about__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sapiente nisi modi doloribus, iusto neque impedit dolor voluptatem ipsum dolore eligendi repellat beatae inventore, assumenda eaque ex excepturi nesciunt odio!
+      </p>
+    </div>
+    
+    <div class="about__playschool">
+      <div class="about__picture about__picture--playschool"></div>
+      <h3 class="h2-title">Дитячі альбоми</h3>
+      <p class="about__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sapiente nisi modi doloribus, iusto neque impedit dolor voluptatem ipsum dolore eligendi repellat beatae inventore, assumenda eaque ex excepturi nesciunt odio!
+      </p>
+    </div>
+
+    <div class="about__album">
+      <div class="about__picture about__picture--album"></div>
+      <h3 class="h2-title">Фотоальом</h3>
+      <p class="about__text">
+        вид фотоальбому, особливістю якого є те, що фотографії друкуються на його сторінках. Також перевагою фотокниг перед звичайними фотоальбомами є їх унікальний дизайн. Фотокнига дає змогу не просто почергово розмістити свої знімки на сторінках, а додавати до них рамки, ефекти, підписи, кліпарти. Особливістю фотокниги є також можливість самостійного оформлення обкладинки, тобто розміщення свого фото або будь-якого іншого зображення на лицьовій та задній частині обкладинки.
+      </p>
+    </div>
+
+    <div class="space"></div>
+
+  </section>
+
+  <section class="album">
+    <a id="album"></a>
+    <h2 class="section__title">Альбоми</h2>
+    <div class="card">
+      <h3 class="card__tite"></h3>
+      <a  class="card__ancher" href="album_1.html">
+        <img class="card__image" src="/img/background-3062011_640.jpg" alt="альбом">
+        <p class="card__title">Природа</p>
+      </a>
+    </div> 
+
+    <div class="card">
+      <h3 class="card__tite"></h3>
+      <a  class="card__ancher" href="album_1.html">
+        <img class="card__image" src="/img/mammals-3218028_1920.jpg" alt="альбом">
+        <p class="card__title">Дикі тварини</p>
+      </a>
+    </div>  
+
+    <div class="card">
+      <h3 class="card__tite"></h3>
+      <a  class="card__ancher" href="album_1.html">
+        <img class="card__image" src="/img/ireland-1985088_1920.jpg" alt="альбом">
+        <p class="card__title">Свійські тварини</p>
+      </a>
+    </div> 
+
+    
+    <div class="card">
+      <h3 class="card__tite"></h3>
+      <a  class="card__ancher" href="album_1.html">
+        <img class="card__image" src="/img/snow-3193865_640.jpg" alt="альбом">
+        <p class="card__title">Північ</p>
+      </a>
+    </div>  
+
+    <div class="card">
+      <h3 class="card__tite"></h3>
+      <a  class="card__ancher" href="album_1.html">
+        <img class="card__image" src="/img/tulips-2219201_640.jpg" alt="альбом">
+        <p class="card__title">Квіти</p>
+      </a>
+    </div>
+    
+    <div class="card">
+      <h3 class="card__tite"></h3>
+      <a  class="card__ancher" href="album_1.html">
+        <img class="card__image" src="/img/babe-2972221_640.jpg" alt="альбом">
+        <p class="card__title">Діти</p>
+      </a>
+    </div> 
+
+    
+    <div class="card">
+      <h3 class="card__tite"></h3>
+      <a  class="card__ancher" href="album_1.html">
+        <img class="card__image" src="/img/tree-3097419_640.jpg" alt="альбом">
+        <p class="card__title">Дерева</p>
+      </a>
+    </div> 
+
+    <div class="card">
+      <h3 class="card__tite"></h3>
+      <a  class="card__ancher" href="album_1.html">
+        <img class="card__image" src="/img/auto-3116534_640.jpg" alt="альбом">
+        <p class="card__title">Автомобілі</p>
+      </a>
+    </div>  
+
+    <div class="card">
+      <h3 class="card__tite"></h3>
+      <a  class="card__ancher" href="album_1.html">
+        <img class="card__image" src="/img/leaf-3070153_640.jpg" alt="альбом">
+        <p class="card__title">Листя</p>
+      </a>
+    </div>
+    <div class="space"></div>
+  </section>
+
+  <section class="contacts">
+    <a id="contacts"></a>
+    <h2 class="section__title">Контакти</h2>
+    
+    <div class="link-wrap">
+      <div class="name">Володимир Мельник</div>
+      <a class="link" href="tel:+38(068)123-45-67">+38(068)123-45-67</a>
+      <a class="link" href="mailto:myname@ukr.net">myname@ukr.net</a>  
+    </div>
+      
+  </section>
+
+  <!-- SCRIPTS -->
+  <script src="js/slider.js"></script>
+  <script src="js/navigation.js"></script>
+
+</body>
+</html>
