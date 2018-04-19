@@ -157,7 +157,7 @@ body {
   .menu__icon {
     display: inline-block; }
   .menu__links {
-    position: fixed;
+    position: absolute;
     display: none;
     top: 0;
     right: 0;
